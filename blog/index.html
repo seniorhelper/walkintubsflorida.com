@@ -421,7 +421,9 @@ dialog.pop::backdrop{background:rgba(7,42,72,.72)}
   <img src="/images/florida-wheelchair-accessible-transfer-bathtubs.png" alt="Man moving from a wheelchair into a transfer bathtub" width="600" height="400" loading="lazy" style="width:100%;aspect-ratio:3/2;object-fit:cover;background:#fff">
   <div style="padding:20px"><h3 style="font-size:1.25rem">Wheelchair accessible walk-in tubs in Florida</h3><p>How transfer tubs work, how to transfer safely, Ella, RANE and Meditub transfer models, bariatric options and a caregiver guide.</p><span style="color:#0a5fb4;font-weight:700;display:inline-block;margin-top:10px">Read the guide</span></div></a></article><article class="card" style="padding:0;overflow:hidden"><a href="/walk-in-tub-cost-florida/" style="text-decoration:none;color:inherit;display:block">
   <img src="/images/walk-in-tub-florida.avif" alt="Woman relaxing in a walk-in tub with jets" width="600" height="400" loading="lazy" style="width:100%;aspect-ratio:3/2;object-fit:cover;background:#fff">
-  <div style="padding:20px"><h3 style="font-size:1.25rem">Walk-in tub cost in Florida</h3><p>Every factor that changes the price, supply-only versus full installation, how to compare quotes and real programs that help Floridians pay.</p><span style="color:#0a5fb4;font-weight:700;display:inline-block;margin-top:10px">Read the guide</span></div></a></article><article class="card" style="padding:0;overflow:hidden"><a href="/" style="text-decoration:none;color:inherit;display:block">
+  <div style="padding:20px"><h3 style="font-size:1.25rem">Walk-in tub cost in Florida</h3><p>Every factor that changes the price, supply-only versus full installation, how to compare quotes and real programs that help Floridians pay.</p><span style="color:#0a5fb4;font-weight:700;display:inline-block;margin-top:10px">Read the guide</span></div></a></article><article class="card" style="padding:0;overflow:hidden"><a href="/how-to-measure-for-a-walk-in-tub/" style="text-decoration:none;color:inherit;display:block">
+  <img src="/images/extra-large-walk-in-tubs.avif" alt="Extra-large walk-in tub sized for a bathroom alcove" width="600" height="400" loading="lazy" style="width:100%;aspect-ratio:3/2;object-fit:cover;background:#fff">
+  <div style="padding:20px"><h3 style="font-size:1.25rem">How to measure for a walk-in tub</h3><p>The six measurements to take before you buy, why Florida slab foundations make the drain side matter, and what to send with a quote request.</p><span style="color:#0a5fb4;font-weight:700;display:inline-block;margin-top:10px">Read the guide</span></div></a></article><article class="card" style="padding:0;overflow:hidden"><a href="/" style="text-decoration:none;color:inherit;display:block">
   <img src="/images/florida-walk-in-tubs.avif" alt="Senior woman relaxing in a Florida walk in tub" width="600" height="400" loading="lazy" style="width:100%;aspect-ratio:3/2;object-fit:cover;background:#fff">
   <div style="padding:20px"><h3 style="font-size:1.25rem">Florida walk in tubs: the complete guide</h3><p>Safety features, brands we sell, 22 Ella models, hydrotherapy, Florida home factors, roll-in showers and more than 30 answered questions.</p><span style="color:#0a5fb4;font-weight:700;display:inline-block;margin-top:10px">Read the guide</span></div></a></article></div>
 </div></section>
@@ -567,13 +569,15 @@ dialog.pop::backdrop{background:rgba(7,42,72,.72)}
         return;
       }
       var thanks = 'Thank you. Your request was delivered. A Florida walk-in tub specialist will call you soon. Need us sooner? Call ' + PHONE + '.';
-      if (f._honey.value || !engaged || Date.now() - loadedAt < 4000){ form.reset(); show(0); status(st, 'ok', thanks); return; }
+      if (f._honey.value){ return; }
+      if (Date.now() - loadedAt < 3500){ status(st, 'bad', 'Give the form a moment, then send again.'); return; }
+      if (!engaged){ return; }
       var pick = function(n){ var c = form.querySelector('input[name="' + n + '"]:checked'); return c ? c.value : ''; };
       var data = {
         name: f.name.value.trim(), phone: f.phone.value.trim(), zip: f.zip.value.trim(), email: f.email.value.trim(),
         priority: pick('priority'), bather: pick('bather'), installation: f.install.value,
         page: location.pathname, form_location: form.dataset.where,
-        _subject: 'New Florida walk-in tub quote request - walkintubsflorida.com', _template: 'table', _captcha: 'false'
+        _subject: 'Aging Safely Baths lead — walkintubsflorida.com', _template: 'table', _captcha: 'false'
       };
       var btn = form.querySelector('button[type="submit"]');
       btn.disabled = true; btn.textContent = 'Sending...';

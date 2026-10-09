@@ -1539,13 +1539,15 @@ dialog.pop::backdrop{background:rgba(7,42,72,.72)}
         return;
       }
       var thanks = 'Thank you. Your request was delivered. A Florida walk-in tub specialist will call you soon. Need us sooner? Call ' + PHONE + '.';
-      if (f._honey.value || !engaged || Date.now() - loadedAt < 4000){ form.reset(); show(0); status(st, 'ok', thanks); return; }
+      if (f._honey.value){ return; }
+      if (Date.now() - loadedAt < 3500){ status(st, 'bad', 'Give the form a moment, then send again.'); return; }
+      if (!engaged){ return; }
       var pick = function(n){ var c = form.querySelector('input[name="' + n + '"]:checked'); return c ? c.value : ''; };
       var data = {
         name: f.name.value.trim(), phone: f.phone.value.trim(), zip: f.zip.value.trim(), email: f.email.value.trim(),
         priority: pick('priority'), bather: pick('bather'), installation: f.install.value,
         page: location.pathname, form_location: form.dataset.where,
-        _subject: 'New Florida walk-in tub quote request - walkintubsflorida.com', _template: 'table', _captcha: 'false'
+        _subject: 'Aging Safely Baths lead — walkintubsflorida.com', _template: 'table', _captcha: 'false'
       };
       var btn = form.querySelector('button[type="submit"]');
       btn.disabled = true; btn.textContent = 'Sending...';
