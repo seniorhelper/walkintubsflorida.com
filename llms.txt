@@ -10,12 +10,16 @@
 - [How to measure for a walk-in tub](https://walkintubsflorida.com/how-to-measure-for-a-walk-in-tub/): Six measurements to take before buying (length, width, drain side, delivery path, water heater, electrical panel), why slab foundations make the drain side matter in Florida, condo notes and what to send with a quote request.
 - [Walk-in tub vs walk-in shower vs roll-in shower](https://walkintubsflorida.com/walk-in-tub-vs-walk-in-shower/): Who each option suits, caregiver room, hot water demand, Florida slab and condo factors, and published national cost ranges (Fixr, This Old House).
 - [Walk-in tub installation in Florida](https://walkintubsflorida.com/walk-in-tub-installation-florida/): Step-by-step install process, permits, condo and HOA approval, hurricane-season timing and checking a contractor license with Florida DBPR.
-- [Paying for a walk-in tub in Florida](https://walkintubsflorida.com/paying-for-a-walk-in-tub-florida/): Original Medicare, Medicare Advantage supplemental benefits, SHINE, VA HISA, SMMC Long-Term Care home accessibility adaptation, county SHIP and IRS Publication 502.
+- [Paying for a walk-in tub in Florida](https://walkintubsflorida.com/paying-for-a-walk-in-tub-florida/): Original Medicare, Medicare Advantage supplemental benefits, SHINE, VA HISA (lifetime limits $6,800 or $2,000 per VA), SMMC Long-Term Care home accessibility adaptation (AHCA examples are grab bars and toilet seats; it excludes major changes like plumbing systems), county SHIP and IRS Publication 502.
 - [Walk-in tub features explained](https://walkintubsflorida.com/walk-in-tub-features-florida/): Door styles, fill and drain speed, air and water jets, heaters, safety extras and electrical needs.
 - [Bathroom fall prevention for Florida seniors](https://walkintubsflorida.com/bathroom-fall-prevention-florida/): CDC and NIA findings, risk factors and a room-by-room checklist.
 - [Caregiver guide to safe bathing](https://walkintubsflorida.com/caregiver-guide-safe-bathing/): Starting the conversation, bathroom setup, bathing routine and long-distance caregiving.
 - [Florida Area Agencies on Aging](https://walkintubsflorida.com/florida-area-agencies-on-aging/): All 11 agencies with the counties each serves, and the Elder Helpline 1-800-963-5337.
-- [Florida bathroom humidity and hurricane guide](https://walkintubsflorida.com/florida-bathroom-humidity-hurricane-guide/): EPA humidity guidance, power outages, the flood-zone 50% rule (Lee County example) and NWS lightning advice.
+- [Florida bathroom humidity and hurricane guide](https://walkintubsflorida.com/florida-bathroom-humidity-hurricane-guide/): EPA humidity guidance, a power outage summary, the flood-zone 50% rule (Lee County example) and NWS lightning advice.
+- [Walk-in tubs during Florida power outages](https://walkintubsflorida.com/walk-in-tub-power-outage-florida/): Feature-by-feature table of what works without power (door, seat, gravity drain) and what stops (jets, inline heaters, heated seats), water heater types in an outage, what to do mid-bath, Ready.gov generator and carbon monoxide rules, and the Florida Special Needs Registry.
+- [Checking a Florida contractor license](https://walkintubsflorida.com/florida-contractor-license-walk-in-tub/): License codes for a tub job (CFC/RF plumbing, EC/ER electrical, CGC/CBC/CRC), certified vs registered, DBPR license lookup, and Florida Statutes 489.103, 489.119, 489.126 and 489.1425.
+- [Hard water and walk-in tubs in Florida](https://walkintubsflorida.com/florida-hard-water-walk-in-tub/): Published hardness (City of Tampa 185 mg/L in 2024; OUC Orlando 129 ppm; Miami-Dade lime softening), how to find your water quality report, where scale builds on a tub and a care routine.
+- [Florida 65+ population by county](https://walkintubsflorida.com/florida-senior-population-by-county/): Census ACS 2019-2023 figures for all 67 counties and Florida metro areas: share 65+, 75+, and 65+ with a disability. Florida 21.1% aged 65+ vs 16.8% nationally (second to Maine); Sumter County 57.8%.
 - [Walk-in tub FAQ](https://walkintubsflorida.com/walk-in-tub-faq-florida/): Daily life, the house, storms and power, family and guests, and buyer protection (FTC Cooling-Off Rule).
 - City guides: [Miami](https://walkintubsflorida.com/walk-in-tubs-miami/), [Fort Lauderdale](https://walkintubsflorida.com/walk-in-tubs-fort-lauderdale/), [West Palm Beach](https://walkintubsflorida.com/walk-in-tubs-west-palm-beach/), [Tampa Bay](https://walkintubsflorida.com/walk-in-tubs-tampa/), [Orlando](https://walkintubsflorida.com/walk-in-tubs-orlando/), [Jacksonville](https://walkintubsflorida.com/walk-in-tubs-jacksonville/), [Sarasota](https://walkintubsflorida.com/walk-in-tubs-sarasota/), [Naples](https://walkintubsflorida.com/walk-in-tubs-naples/), [Fort Myers](https://walkintubsflorida.com/walk-in-tubs-fort-myers/), [The Villages](https://walkintubsflorida.com/walk-in-tubs-the-villages/).
 - [Blog](https://walkintubsflorida.com/blog/): Guide hub and quick answers for Florida families.
@@ -29,6 +33,7 @@
 - Hydro Dimensions walk-in tubs: handcrafted in the USA; lifetime warranty covering the shell, frame and finish, motors, electronic controls, door seals and supporting parts that does not step down over time; IAPMO, UPC and UL certifications.
 - Labor warranty: 1 year with white-glove installation; Hydro Dimensions supply-only purchases also include a 1-year labor warranty.
 - Bestbath roll-in showers: made in Caldwell, Idaho and Sparta, Tennessee; 30-year warranty on the entire shower.
+- Florida 65+ residents: 4,630,733 (21.1% of the population), second only to California in number. Source: U.S. Census Bureau, ACS 2019-2023 5-year estimates, table B01001.
 - Ella: more than 28 walk-in tub models, from the 26 x 45-inch Mobile to the 36 x 80-inch Big4Two; transfer tubs use a 36-inch L-shaped outward swing door.
 
 ## Sources cited
@@ -42,7 +47,11 @@
 - Medicare equipment coverage: https://www.medicare.gov/coverage/durable-medical-equipment-dme-coverage
 - Fixr walk-in tub cost data: https://www.fixr.com/costs/walk-in-tub-installation
 - CMS 2018 supplemental benefits memo: https://www.hhs.gov/guidance/sites/default/files/hhs-guidance-documents/hpms%2520memo%2520primarily%2520health%2520related%25204-27-18_90.pdf
-- Florida AHCA Long-Term Care FAQ: https://ahca.myflorida.com/Medicaid/statewide_mc/ltc_faq.shtml
+- Florida AHCA, Long-Term Care services: https://ahca.myflorida.com/medicaid/statewide-medicaid-managed-care/long-term-care-program/find-out-about-long-term-care-services.html
+- Ready.gov power outages: https://www.ready.gov/power-outages
+- Florida DBPR license lookup: https://www.myfloridalicense.com/wl11.asp
+- City of Tampa 2024 Water Quality Report: https://www.tampa.gov/sites/default/files/document/2025/2024-water-quality-report-ada-compliant.pdf
+- U.S. Census Bureau ACS table B01001: https://data.census.gov/table/ACSDT5Y2023.B01001
 - EPA mold and moisture guide: https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home
 - NIA falls and fractures: https://www.nia.nih.gov/health/falls-and-falls-prevention/falls-and-fractures-older-adults-causes-and-prevention
 - Lee County substantial improvements: https://www.leegov.com/dcd/flood/building/improvements

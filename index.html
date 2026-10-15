@@ -1007,6 +1007,54 @@ dialog.pop::backdrop{background:rgba(7,42,72,.72)}
 @media (min-width:1200px){.head .nav{gap:15px}}
 .wiz>.bbb-qbox,.wiz>.bbb-vcard{margin:0 24px 22px}
 </style>
+<style id="fl-up">
+/* mobile menu */
+.burger{display:none;align-items:center;gap:10px;font:inherit;font-weight:700;font-size:1.05rem;background:#fff;color:var(--gulf);border:2px solid var(--gulf);border-radius:12px;padding:10px 16px;min-height:48px;cursor:pointer}
+.burger i{position:relative;display:block;width:18px;height:2px;background:currentColor}
+.burger i::before,.burger i::after{content:"";position:absolute;left:0;width:18px;height:2px;background:currentColor}
+.burger i::before{top:-6px}.burger i::after{top:6px}
+.burger[aria-expanded="true"]{background:var(--gulf);color:#fff}
+.mobnav{display:none;border-top:1px solid var(--line);background:#fff;max-height:calc(100vh - 140px);overflow:auto}
+.mobnav.open{display:block}
+.mobnav ul{list-style:none;margin:0 auto;padding:6px 22px 18px;max-width:var(--wrap);display:grid;grid-template-columns:1fr 1fr;gap:0 22px}
+.mobnav li{margin:0;max-width:none}
+.mobnav a{display:flex;align-items:center;min-height:52px;padding:8px 2px;color:var(--ink);font-weight:500;text-decoration:none;border-bottom:1px solid var(--line)}
+.mobnav a[aria-current="page"]{color:var(--gulf);font-weight:700}
+@media (max-width:980px){.burger{display:inline-flex}}
+@media (min-width:981px){.mobnav{display:none!important}}
+@media (max-width:560px){.head .nav>.btn-sun{display:none}.mobnav ul{grid-template-columns:1fr}}
+/* heading first on phones and tablets, then the quote form */
+@media (max-width:980px){
+ .hero .wrap{row-gap:0}
+ .hero-copy{display:contents}
+ .hero .crumbs{order:1}.hero h1{order:2}.hero .hero-lede{order:3}.hero .answer{order:4}.hero .hero-calls{order:5}
+ .hero .wrap>div:first-child{order:6;margin-top:28px}
+ .hero-pic{order:7}
+}
+/* direct answer capsule */
+.answer{background:#fff;border:1px solid var(--line);border-left:6px solid var(--palm);border-radius:var(--r-s);padding:14px 18px;color:var(--ink);font-size:1.08rem;line-height:1.6;max-width:62ch;margin:6px 0 4px}
+.answer strong{color:var(--gulf)}
+.nw{white-space:nowrap}
+.sec.gulf a.btn-sun,.sec.gulf a.btn-sun:hover{color:var(--ink)}
+/* data figures */
+.chart{margin:26px 0;background:#fff;border:1px solid var(--line);border-radius:var(--r-m);padding:18px 18px 12px}
+.chart svg{display:block;width:100%;height:auto}
+.chart figcaption{font-size:1rem;color:var(--body);margin-top:8px}
+.chart figcaption b{color:var(--ink)}
+.chart .srcline{display:block;font-size:.92rem;color:var(--muted);margin-top:4px}
+.stat3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:24px 0}
+.stat3 div{background:#fff;border:1px solid var(--line);border-top:6px solid var(--gulf);border-radius:var(--r-m);padding:18px 20px}
+.stat3 b{display:block;font-size:2.1rem;line-height:1.1;color:var(--gulf);margin-bottom:6px}
+.stat3 p{margin:0;font-size:1.02rem}
+@media (max-width:820px){.stat3{grid-template-columns:1fr}}
+.sortbtn{font:inherit;font-weight:700;color:var(--ink);background:none;border:0;padding:0;cursor:pointer;text-align:left;text-decoration:underline;text-underline-offset:3px}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+.yes{color:#135c2c;font-weight:700}.no{color:#8c1d18;font-weight:700}.dep{color:#6b4b00;font-weight:700}
+.census{background:#fff;border:1px solid var(--line);border-radius:var(--r-m);padding:20px 22px;margin:22px 0;max-width:820px}
+.census h3{margin-bottom:10px}
+.census ul{margin:0 0 10px}
+.census p{font-size:1rem;margin:0}
+</style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -1021,8 +1069,22 @@ dialog.pop::backdrop{background:rgba(7,42,72,.72)}
     <a href="/contact/">Contact</a>
     <a class="tel keep" href="tel:+18887792284">1-888-779-2284</a>
     <button class="btn btn-sun" type="button" data-quote>Get my quote</button>
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="mobNav"><i aria-hidden="true"></i>Menu</button>
   </nav>
-</div></header>
+</div>
+<nav class="mobnav" id="mobNav" aria-label="Site menu"><ul>
+<li><a href="/">Florida walk in tubs</a></li>
+<li><a href="/wheelchair-accessible-walk-in-tubs/">Wheelchair transfer tubs</a></li>
+<li><a href="/walk-in-tub-cost-florida/">Cost in Florida</a></li>
+<li><a href="/paying-for-a-walk-in-tub-florida/">Ways to pay</a></li>
+<li><a href="/walk-in-tub-installation-florida/">How installation works</a></li>
+<li><a href="/walk-in-tub-power-outage-florida/">Storms and power outages</a></li>
+<li><a href="/blog/#cities">Florida city guides</a></li>
+<li><a href="/blog/">All guides</a></li>
+<li><a href="/contact/">Contact us</a></li>
+<li><a href="tel:+18887792284">Call 1-888-779-2284</a></li>
+</ul></nav>
+</header>
 <div class="bbb-row" role="complementary" aria-label="BBB accreditation"><a class="bbb-seal bbb-m" href="https://www.bbb.org/us/co/denver/profile/walk-in-tubs/aging-safely-walk-in-tubs-1296-90145069/#sealclick" target="_blank" rel="nofollow noopener" aria-label="BBB Accredited Business — Aging Safely Walk in Tubs"><img src="https://seal-alaskaoregonwesternwashington.bbb.org/seals/blue-seal-200-65-bbb-90145069.png" width="200" height="65" alt="Aging Safely Walk in Tubs BBB Business Review" loading="lazy" decoding="async"></a><p class="bbb-row-t"><strong>Accredited by the BBB</strong>Tap the seal to verify</p></div>
 <main id="main">
 <section class="hero"><div class="wrap">
@@ -1050,6 +1112,7 @@ dialog.pop::backdrop{background:rgba(7,42,72,.72)}
   <div class="hero-copy">
     <h1>Florida walk in tubs, installed for you</h1>
     <p class="hero-lede">Step in. Sit down. Soak safely again. We take out the old tub and install your new one. You just enjoy the bath.</p>
+    <p class="answer"><strong>Direct answer:</strong> We sell and install walk-in tubs, wheelchair transfer tubs and roll-in showers anywhere in Florida. Swapping an existing tub usually takes one to two days once the new tub is on site, and every quote is written, itemized and free. Call <a href="tel:+18887792284" class="nw">1-888-779-2284</a> or use the form.</p>
     <div class="hero-calls">
       <a class="btn btn-gulf btn-lg" href="tel:+18887792284">Call 1-888-779-2284</a>
       <div><strong>Friendly help. No pressure.</strong><small>Authorized Ella dealer since 2012</small></div>
@@ -1091,7 +1154,7 @@ dialog.pop::backdrop{background:rgba(7,42,72,.72)}
     <div class="num"><b>1 in 4</b><p>Adults 65 and older report a fall each year. That is more than 14 million people. Falls are the top cause of injury in this age group.</p><a href="https://www.cdc.gov/falls/data-research/index.html" target="_blank" rel="noopener">Source: CDC</a></div>
     <div class="num"><b>81%</b><p>Of nonfatal bathroom injuries treated in U.S. emergency rooms in 2008 were caused by falls. The CDC counted 234,094 bathroom injuries that year.</p><a href="https://www.cdc.gov/mmwr/pdf/wk/mm6022.pdf" target="_blank" rel="noopener">Source: CDC, MMWR</a></div>
   </div>
-  <p>The same CDC study found that 37.3% of those injuries happened while bathing, showering or getting out of the tub or shower. Injury rates rose with age. They were highest for people 85 and older.</p>
+  <p>The same CDC study found that 37.3% of those injuries happened while bathing, showering or getting out of the tub or shower. Injury rates rose with age. They were highest for people 85 and older. To see how many older adults live in your county, browse our <a href="/florida-senior-population-by-county/">Florida 65+ population data by county</a>.</p>
   <p>A walk-in tub is not a medical device. It cannot promise that no one will ever fall. What it does is remove the riskiest moves from bath time: the high step, the low sit and the slippery climb out.</p>
   <div class="callout"><p><strong>Had a fall or a close call?</strong> Talk with your doctor too. An occupational therapist can check your home and suggest the best bathing setup. We are happy to work from their advice.</p></div>
 </div></section>
@@ -1149,7 +1212,7 @@ dialog.pop::backdrop{background:rgba(7,42,72,.72)}
 <g fill="#0b3d66"><circle cx="300" cy="322" r="6"/><circle cx="340" cy="324" r="6"/><circle cx="380" cy="324" r="6"/><circle cx="420" cy="322" r="6"/><circle cx="460" cy="320" r="6"/></g>
 <g fill="#8fb9d6"><circle cx="278" cy="360" r="3"/><circle cx="298" cy="360" r="3"/><circle cx="318" cy="360" r="3"/><circle cx="338" cy="360" r="3"/><circle cx="358" cy="360" r="3"/><circle cx="378" cy="360" r="3"/><circle cx="398" cy="360" r="3"/></g>
 <rect x="514" y="356" width="34" height="10" rx="4" fill="#9aa8b3"/>
-</svg><button class="spot" type="button" data-spot="0" aria-pressed="true" style="left:28%;top:87%" aria-label="Low step-in threshold">1</button><button class="spot" type="button" data-spot="1" aria-pressed="false" style="left:28%;top:60%" aria-label="Watertight door">2</button><button class="spot" type="button" data-spot="2" aria-pressed="false" style="left:70%;top:61%" aria-label="Seat at chair height">3</button><button class="spot" type="button" data-spot="3" aria-pressed="false" style="left:50%;top:34%" aria-label="Grab bars in reach">4</button><button class="spot" type="button" data-spot="4" aria-pressed="false" style="left:79%;top:29%" aria-label="Fast-fill faucet and hand shower">5</button><button class="spot" type="button" data-spot="5" aria-pressed="false" style="left:63%;top:76%" aria-label="Air and water jets">6</button><button class="spot" type="button" data-spot="6" aria-pressed="false" style="left:46%;top:88%" aria-label="Textured floor">7</button><button class="spot" type="button" data-spot="7" aria-pressed="false" style="left:83%;top:87%" aria-label="Ella dual drain">8</button></div>
+</svg><button class="spot" type="button" data-spot="0" aria-pressed="true" style="left:28%;top:87%" aria-label="1. Low step-in threshold">1</button><button class="spot" type="button" data-spot="1" aria-pressed="false" style="left:28%;top:60%" aria-label="2. Watertight door">2</button><button class="spot" type="button" data-spot="2" aria-pressed="false" style="left:70%;top:61%" aria-label="3. Seat at chair height">3</button><button class="spot" type="button" data-spot="3" aria-pressed="false" style="left:50%;top:34%" aria-label="4. Grab bars in reach">4</button><button class="spot" type="button" data-spot="4" aria-pressed="false" style="left:79%;top:29%" aria-label="5. Fast-fill faucet and hand shower">5</button><button class="spot" type="button" data-spot="5" aria-pressed="false" style="left:63%;top:76%" aria-label="6. Air and water jets">6</button><button class="spot" type="button" data-spot="6" aria-pressed="false" style="left:46%;top:88%" aria-label="7. Textured floor">7</button><button class="spot" type="button" data-spot="7" aria-pressed="false" style="left:83%;top:87%" aria-label="8. Ella dual drain">8</button></div>
     <div>
       <div class="tour-card" id="tour-card" aria-live="polite"><h3>Low step-in threshold</h3><p>You step over a low lip at the door. There is no tall tub wall to climb. Your feet stay close to the floor, and you keep your balance.</p></div>
       <ul class="tour-list"><li><button type="button" data-spot="0" aria-pressed="true">Low step-in threshold</button></li><li><button type="button" data-spot="1" aria-pressed="false">Watertight door</button></li><li><button type="button" data-spot="2" aria-pressed="false">Seat at chair height</button></li><li><button type="button" data-spot="3" aria-pressed="false">Grab bars in reach</button></li><li><button type="button" data-spot="4" aria-pressed="false">Fast-fill faucet and hand shower</button></li><li><button type="button" data-spot="5" aria-pressed="false">Air and water jets</button></li><li><button type="button" data-spot="6" aria-pressed="false">Textured floor</button></li><li><button type="button" data-spot="7" aria-pressed="false">Ella dual drain</button></li></ul>
@@ -1343,9 +1406,10 @@ dialog.pop::backdrop{background:rgba(7,42,72,.72)}
     <div><h3>Slab foundations</h3><p>Many Florida homes sit on a concrete slab. Moving a drain means cutting concrete. So we match the tub's drain side to your current drain whenever we can.</p></div>
     <div><h3>Condos and HOAs</h3><p>Many condo and HOA communities want approval before a bathroom remodel. Some have rules about work hours or elevators. Check with your association early.</p></div>
     <div><h3>Upstairs and high-rise bathrooms</h3><p>A full walk-in tub with a bather is heavy. For upper floors, we look at the floor and the tub's filled weight before we recommend a model.</p></div>
-    <div><h3>Hurricane season</h3><p>Atlantic hurricane season runs June through November. Storms can delay deliveries and work. We plan around the weather and keep you updated.</p></div>
-    <div><h3>Power for jets</h3><p>Jets and heaters need a proper circuit, usually a dedicated GFCI-protected one. A soaking tub needs no extra power. Ella's drain is gravity driven.</p></div>
+    <div><h3>Hurricane season</h3><p>Atlantic hurricane season runs June through November. Storms can delay deliveries and work. We plan around the weather and keep you updated. Here is <a href="/walk-in-tub-power-outage-florida/">what a walk-in tub does in a power outage</a>.</p></div>
+    <div><h3>Power for jets</h3><p>Jets and heaters need a proper circuit, usually a dedicated GFCI-protected one. A soaking tub needs no extra power. Ella's drain is gravity driven. Electrical work should be done by a licensed electrician; here is <a href="/florida-contractor-license-walk-in-tub/">how to check a Florida license</a>.</p></div>
     <div><h3>Water heater size</h3><p>Deep tubs need lots of hot water. Ella lists a suggested water heater size for each model. We check yours so your bath stays warm.</p></div>
+    <div><h3>Hard water</h3><p>Many Florida utilities deliver hard water, which leaves scale on faucets, jets and door seals. A few minutes of care each week prevents most of it. See our <a href="/florida-hard-water-walk-in-tub/">Florida hard water guide</a>.</p></div>
     <div><h3>Seasonal residents</h3><p>Live up north part of the year? Tell us your dates. We can plan your quote and install around when you are in Florida.</p></div>
     <div><h3>Keeping a regular tub</h3><p>Many homes have two bathrooms. Some families keep a standard tub in one and add a walk-in tub in the other. That works well for guests and grandkids.</p></div>
     <div><h3>Tile, panels and finish</h3><p>Removing an old tub can expose worn tile or wallboard. We look at the walls around the tub so your new bathroom looks finished, not patched.</p></div>
@@ -1482,7 +1546,7 @@ dialog.pop::backdrop{background:rgba(7,42,72,.72)}
 <details><summary>What warranty comes with your roll-in showers?</summary><div class="a"><p>Our handicap showers include a 30-year warranty on the entire shower. With our white-glove installation, you also get a 1-year labor warranty.</p></div></details>
 <details><summary>How do I get a free quote?</summary><div class="a"><p>Call 1-888-779-2284 or answer the three quick questions in our quote form. A specialist will call you back. There is no pressure and no obligation.</p></div></details>
   </div>
-  <p style="margin-top:22px">Want more reading? Visit our <a href="/blog/">walk-in tub blog</a>, compare a <a href="/walk-in-tub-vs-walk-in-shower/">walk-in tub with a roll-in shower</a>, read <a href="/walk-in-tub-faq-florida/">more answered questions</a>, or learn about <a href="https://www.agingsafelybaths.com/" target="_blank" rel="noopener">Aging Safely Baths</a>.</p>
+  <p style="margin-top:22px">Want more reading? Visit our <a href="/blog/">walk-in tub blog</a>, compare a <a href="/walk-in-tub-vs-walk-in-shower/">walk-in tub with a roll-in shower</a>, read <a href="/walk-in-tub-faq-florida/">more answered questions</a>, or see the <a href="https://www.agingsafelybaths.com/locations/florida-walk-in-tubs-roll-in-showers/">Florida service page from our parent company, Aging Safely Baths</a>.</p>
 </div></section>
 
 <section class="band"><div class="wrap">
@@ -1505,6 +1569,10 @@ dialog.pop::backdrop{background:rgba(7,42,72,.72)}
     <li><a href="/">Florida walk in tubs</a></li>
     <li><a href="/wheelchair-accessible-walk-in-tubs/">Wheelchair accessible walk-in tubs</a></li>
     <li><a href="/walk-in-tub-cost-florida/">Walk-in tub cost in Florida</a></li>
+    <li><a href="/walk-in-tub-power-outage-florida/">Storms, outages and your tub</a></li>
+    <li><a href="/florida-contractor-license-walk-in-tub/">Checking a Florida contractor license</a></li>
+    <li><a href="/florida-hard-water-walk-in-tub/">Hard water and walk-in tubs</a></li>
+    <li><a href="/florida-senior-population-by-county/">Florida 65+ population by county</a></li>
     <li><a href="/blog/">Blog</a></li>
     <li><a href="/privacy-policy/">Privacy policy</a></li>
   </ul></div>
@@ -1547,6 +1615,14 @@ dialog.pop::backdrop{background:rgba(7,42,72,.72)}
   var PHONE = '1-888-779-2284';
 
   document.querySelectorAll('a.eml').forEach(function(a){ var d = pub(); a.href = 'mailto:' + d; a.textContent = d; });
+
+  var burger = document.getElementById('burger'), mobNav = document.getElementById('mobNav');
+  if (burger && mobNav){
+    var setMenu = function(open){ mobNav.classList.toggle('open', open); burger.setAttribute('aria-expanded', open ? 'true' : 'false'); };
+    burger.addEventListener('click', function(){ setMenu(!mobNav.classList.contains('open')); });
+    document.addEventListener('keydown', function(e){ if (e.key === 'Escape' && mobNav.classList.contains('open')){ setMenu(false); burger.focus(); } });
+    mobNav.querySelectorAll('a').forEach(function(a){ if (a.getAttribute('href') === location.pathname) a.setAttribute('aria-current', 'page'); a.addEventListener('click', function(){ setMenu(false); }); });
+  }
   var yr = document.getElementById('yr'); if (yr) yr.textContent = new Date().getFullYear();
 
   var pop = document.getElementById('pop');
@@ -1615,8 +1691,8 @@ dialog.pop::backdrop{background:rgba(7,42,72,.72)}
       fetch('https://formsubmit.co/ajax/' + dest(), {method:'POST', headers:{'Content-Type':'application/json','Accept':'application/json'}, body: JSON.stringify(data)})
         .then(function(r){ return r.json().catch(function(){ return {}; }).then(function(j){ return {ok:r.ok, j:j}; }); })
         .then(function(res){
-          if (res.ok && (res.j.success === true || res.j.success === 'true')){ form.reset(); show(0); status(st, 'ok', thanks); }
-          else { status(st, 'warn', 'We sent your request but could not confirm it arrived. Please call ' + PHONE + ' so nothing slips through.'); }
+          if (res.ok && res.j && res.j.success === 'true'){ form.reset(); show(0); status(st, 'ok', thanks); }
+          else { status(st, 'bad', 'Sorry, your request did not go through. Please call ' + PHONE + ' and we will take your details by phone.'); }
         })
         .catch(function(){ status(st, 'bad', 'Your request did not go through. Check your connection and try again, or call ' + PHONE + '.'); })
         .then(function(){ btn.disabled = false; btn.textContent = 'Get my free quote'; });
