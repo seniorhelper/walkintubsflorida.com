@@ -2,6 +2,13 @@
 
 > WalkInTubsFlorida.com sells and installs walk-in tubs, wheelchair transfer tubs and roll-in showers across Florida. Part of the Aging Safely Baths family. BBB Accredited with an A+ rating. Authorized Ella dealer since 2012, and a dealer for Hydro Dimensions, Bestbath, RANE by Bestbath and Meditub. Quotes by phone at 1-888-779-2284 (BATH) or through the online quote form. Prices are quoted per home and are not published.
 
+## Key facts
+
+- Phone 1-888-779-2284 (BATH), sales@agingsafelybaths.com, 7am to 8pm Mountain time, 7 days. BBB A+ accredited since 2012.
+- Process: quotes can start by phone or from photos. Once a customer chooses a tub or shower and places a deposit, a technician does a full in-person site visit (measurements, photos, options, questions) before installation day.
+- Original Medicare generally does not cover walk-in tubs; Medicare Advantage, Medicaid waivers, VA HISA and IRS medical-expense rules may help.
+- Machine-readable business facts: https://www.agingsafelybaths.com/facts.json
+
 ## Pages
 
 - [Florida walk in tubs](https://walkintubsflorida.com/): Safety features with an interactive tub tour, brands sold (Hydro Dimensions featured for value), 22 Ella models by door style with sizes, sizing tips, hydrotherapy, 3-step installation, Florida home factors (humidity, slab foundations, condo and HOA approval, hurricane season), cost factors and ways to pay, roll-in showers, service regions, Florida senior resources and 32 FAQs.
