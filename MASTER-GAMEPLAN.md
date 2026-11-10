@@ -41,3 +41,11 @@ Aging Safely Baths & More, LLC. 1-888-779-2284, sales@agingsafelybaths.com. BBB 
 
 ## Measurement
 GA4 property per site (account 45765285), key events generate_lead and phone_click. Search Console: bare domain property, sitemap.xml submitted. Check queries and positions in GA4's Search Console report at the start of every project.
+
+## 2026-11-10 (overnight, branch seo-leads-2026-11-10, not pushed)
+Based on GSC Oct 25 to Nov 8: walk in tubs orlando 33 impr pos 14.9, tallahassee 11 / 12.6 (no page existed), west palm beach 14 / 17.4, almost no clicks.
+- /walk-in-tubs-orlando/: new title/meta for CTR; new "what we checked" section: HB 803 $7,500 exemption excludes plumbing/electrical (City of Orlando guide), Notice of Commencement over $5,000, OUC water 7 gpg (Lower Floridan, ozone), ACS 2024 median year built 1995, Senior Resource Alliance (407) 514-1800; permit FAQ added (visible + schema).
+- /walk-in-tubs-west-palm-beach/: new title/meta; section with WPB Permits FAQ (HB 803, flood-zone exclusion, Civic Access, owner-builder rules, condo flooring permit), 2025 water report (Grassy Waters surface water, TDS 243 ppm, no hardness published, utility 561-822-2222), ACS median 1988, AAA PBTC 561-684-5885; permit FAQ added.
+- NEW /walk-in-tubs-tallahassee/: city vs Leon County permits (portal, phones, county veteran fee waiver), city water ~9 gpg, ACS housing age, Advantage Aging Solutions, city Housing Division and Leon County repair program. Linked from blog cities grid + ItemList, home Panhandle region, AAA table; sitemap + llms.txt.
+- All sources opened Nov 10, 2026 and listed on-page. Census API now needs a key; ACS figures came from data.census.gov tables (ACSDT1Y2024 B25034/B25035).
+Next: request indexing for the three URLs; recheck CTR on these pages in 3-4 weeks; condo/HOA ch. 718 page still open.
